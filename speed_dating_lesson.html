@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citas rápidas – Subjuntivo + Expresiones indefinidas</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background:#FFFAF5;color:#2D2D2D;line-height:1.7;padding:20px;max-width:920px;margin:0 auto}
+.hdr{background:linear-gradient(135deg,#880E4F,#C2185B);color:#fff;padding:36px 32px;border-radius:14px;margin-bottom:28px;position:relative;overflow:hidden}
+.hdr::before{content:'💕';font-size:110px;position:absolute;right:-5px;top:-12px;opacity:.12}
+.hdr h1{font-size:2em;margin-bottom:6px}
+.hdr p{font-size:1.05em;opacity:.92}
+.hdr .tg{display:inline-block;background:rgba(255,255,255,.2);padding:4px 14px;border-radius:20px;font-size:.85em;margin-top:10px}
+.sec{background:#fff;border-radius:12px;padding:28px 30px;margin-bottom:24px;box-shadow:0 2px 10px rgba(0,0,0,.06);border:1px solid #f0e8e8}
+.sec h2{font-size:1.5em;color:#880E4F;margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid #F8BBD0}
+.sec h3{font-size:1.15em;color:#C2185B;margin:22px 0 10px}
+.sec p{margin-bottom:10px}
+.gram{background:#FFF8E1;border-left:5px solid #D4A017;padding:18px 22px;border-radius:0 10px 10px 0;margin:16px 0}
+.gram .fm{font-size:1.1em;font-weight:700;color:#880E4F;margin-bottom:6px}
+.gram code{background:rgba(255,255,255,.7);padding:2px 8px;border-radius:4px;font-family:Georgia,serif;font-weight:700;color:#C2185B}
+.exg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+.ex{padding:14px 16px;border-radius:10px;font-size:.95em}
+.exi{background:#E3F2FD;border-left:4px solid #1565C0}
+.exs{background:#FFF0F5;border-left:4px solid #C2185B}
+.ex .el{font-size:.72em;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:5px}
+.exi .el{color:#1565C0}.exs .el{color:#C2185B}
+.egd{display:grid;grid-template-columns:1fr 1fr;margin:16px 0;border:2px solid #F8BBD0;border-radius:10px;overflow:hidden}
+.egh{background:#C2185B;color:#fff;font-weight:700;padding:10px 16px;text-align:center;font-size:.95em}
+.egc{padding:10px 16px;border-bottom:1px solid #f5e8e8;font-size:.93em}
+.egc:nth-child(odd){background:#FFF0F5}
+.tip{background:#E8F5E9;border-left:5px solid #2E7D32;padding:14px 18px;border-radius:0 10px 10px 0;margin:14px 0;font-size:.93em}
+.vcg{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:16px 0}
+.vcg h4{color:#880E4F;margin-bottom:8px;font-size:1.05em}
+.vcg table{width:100%;border-collapse:collapse;font-size:.92em}
+.vcg td{padding:6px 10px;border-bottom:1px solid #f0e8e8}
+.vcg tr:hover{background:#FFF0F5}
+.vcg td:first-child{font-weight:600;color:#5D4E4E}
+.fcg{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;margin:16px 0}
+.fcc{perspective:600px;cursor:pointer;height:125px}.fcc:hover{transform:scale(1.02)}
+.fci{position:relative;width:100%;height:100%;transition:transform .5s ease;transform-style:preserve-3d}
+.fcf,.fcb{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;text-align:center}
+.fcf{background:#E8F5E9;border:2px solid #2E7D32}
+.fcb{background:#FFEBEE;border:2px solid #C62828;transform:rotateY(180deg)}
+.fct{font-size:.7em;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px}
+.fcw{font-size:1.2em;font-weight:700;color:#2D2D2D}
+.fce{font-size:.8em;color:#5D4E4E;font-style:italic}
+.mr{display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap}
+.ma{min-width:165px;padding:11px 16px;background:#E8F5E9;border:2px solid #2E7D32;border-radius:10px;font-weight:700;color:#2E7D32;text-align:center;font-size:.93em}
+.mw{font-size:1.3em;color:#5D4E4E}
+.dz{min-width:165px;min-height:44px;padding:10px 16px;background:#fff;border:2px dashed #F8BBD0;border-radius:10px;text-align:center;color:#999;font-size:.88em;transition:all .2s}
+.db{display:flex;flex-wrap:wrap;gap:10px;padding:16px;background:#FFF0F5;border-radius:12px;min-height:55px;margin-top:12px}
+.dt{padding:10px 18px;background:#C2185B;color:#fff;border-radius:10px;font-weight:700;cursor:grab;user-select:none;font-size:.92em;transition:opacity .2s}
+.dt:active{cursor:grabbing}
+.ei{background:#fff;border-radius:10px;padding:14px 18px;margin-bottom:12px;border:1px solid #eee}
+.ei label{display:block;margin-bottom:8px;font-size:.97em}
+.ei input[type="text"]{border:2px solid #F8BBD0;border-radius:8px;padding:8px 14px;font-size:1em;font-family:Georgia,serif;width:220px;outline:none}
+.ei input[type="text"]:focus{border-color:#C2185B;box-shadow:0 0 0 3px rgba(194,24,91,.1)}
+.ei input.ok{border-color:#2E7D32!important;background:#E8F5E9!important}
+.ei input.no{border-color:#C62828!important;background:#FFEBEE!important}
+.ei select{border:2px solid #F8BBD0;border-radius:8px;padding:8px 14px;font-size:1em;font-family:Georgia,serif;background:#fff;cursor:pointer;outline:none}
+.ei select:focus{border-color:#C2185B}
+.ei textarea{width:100%;min-height:80px;border:2px solid #F8BBD0;border-radius:8px;padding:12px;font-family:Georgia,serif;font-size:.95em;resize:vertical;outline:none}
+.ei textarea:focus{border-color:#C2185B;box-shadow:0 0 0 3px rgba(194,24,91,.1)}
+.fb{font-size:.88em;margin-top:6px;font-weight:600;display:none}
+.fb.ok{color:#2E7D32;display:block}.fb.no{color:#C62828;display:block}
+.tgl{cursor:pointer;color:#C2185B;font-weight:600;font-size:.86em;display:inline-block;margin-top:5px}
+.tgl:hover{text-decoration:underline}
+.ans{display:none;background:#FFF8E1;padding:8px 14px;border-radius:8px;margin-top:6px;font-size:.9em;font-weight:600;color:#880E4F}
+.ans.vis{display:block}
+.btn{display:inline-block;padding:11px 26px;border:none;border-radius:10px;font-family:Georgia,serif;font-size:1em;font-weight:700;cursor:pointer;transition:all .2s;margin:6px 6px 6px 0}
+.bp{background:#C2185B;color:#fff}.bp:hover{background:#880E4F;transform:translateY(-1px)}
+.bs{background:#fff;color:#C2185B;border:2px solid #C2185B}.bs:hover{background:#FFF0F5}
+.sc{background:linear-gradient(135deg,#880E4F,#C2185B);color:#fff;padding:16px 22px;border-radius:12px;text-align:center;font-size:1.15em;font-weight:700;margin-top:14px;display:none}
+.sc.vis{display:block}
+.sda{background:linear-gradient(135deg,#FFF0F5,#FFF8E1);border-radius:12px;padding:24px;margin:18px 0}
+.sdr{display:inline-block;background:#C2185B;color:#fff;padding:5px 16px;border-radius:20px;font-weight:700;font-size:.88em;margin-bottom:12px}
+.qc{background:#fff;border-radius:12px;padding:18px 22px 18px 48px;margin-bottom:14px;border:1px solid rgba(194,24,91,.15);box-shadow:0 2px 6px rgba(0,0,0,.04);position:relative}
+.qn{position:absolute;top:14px;left:14px;background:#880E4F;color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8em;font-weight:700}
+.qc .ht{font-size:.84em;color:#5D4E4E;font-style:italic;margin-top:8px}
+.ins{background:#E3F2FD;border:2px solid #1565C0;border-radius:12px;padding:20px 24px;margin:16px 0}
+.ins h3{color:#1565C0;margin-top:0}
+.ins ol{padding-left:20px;margin:10px 0}
+.ins li{margin:7px 0;font-size:.95em}
+@media(max-width:700px){.hdr h1{font-size:1.5em}.exg,.vcg,.egd{grid-template-columns:1fr}.fcg{grid-template-columns:1fr 1fr}.sec{padding:20px 16px}body{padding:12px}.mr{flex-direction:column;align-items:stretch}.ma,.dz{min-width:auto}}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <h1>💘 Citas Rápidas — Speed Dating</h1>
+  <p>El subjuntivo con antecedentes no existentes o desconocidos + Expresiones indefinidas y negativas</p>
+  <div class="tg">SPAN 2102 · Las relaciones personales</div>
+</div>
+
+<div class="sec">
+  <h2>📖 Parte 1: Repaso gramatical</h2>
+  <h3>A. El subjuntivo con antecedentes no existentes o desconocidos</h3>
+  <p>Cuando describimos algo o a alguien que <strong>no sabemos si existe</strong> o que <strong>definitivamente no existe</strong>, usamos el <strong>subjuntivo</strong> en la cláusula adjetival. Si el antecedente es <strong>conocido y concreto</strong>, usamos el <strong>indicativo</strong>.</p>
+  <div class="gram">
+    <div class="fm">¿Existe / Es conocido? → <code>INDICATIVO</code></div>
+    <div class="fm">¿No existe / No se sabe si existe? → <code>SUBJUNTIVO</code></div>
+  </div>
+  <div class="exg">
+    <div class="ex exi"><div class="el">✅ Indicativo (existe / es conocido)</div>Tengo un novio que <strong>es</strong> cariñoso y comprensivo.</div>
+    <div class="ex exs"><div class="el">💭 Subjuntivo (no existe / desconocido)</div>Busco un novio que <strong>sea</strong> cariñoso y comprensivo.</div>
+  </div>
+  <div class="exg">
+    <div class="ex exi"><div class="el">✅ Indicativo</div>Conozco a alguien que <strong>quiere</strong> casarse pronto.</div>
+    <div class="ex exs"><div class="el">💭 Subjuntivo</div>¿Conoces a alguien que <strong>quiera</strong> casarse pronto?</div>
+  </div>
+  <div class="exg">
+    <div class="ex exi"><div class="el">✅ Indicativo</div>Hay una pareja que <strong>se lleva</strong> muy bien.</div>
+    <div class="ex exs"><div class="el">💭 Subjuntivo</div>No hay <strong>nadie</strong> que <strong>se lleve</strong> bien con él.</div>
+  </div>
+  <div class="tip"><strong>💡 Palabras clave que activan el subjuntivo:</strong> Busco… que, Necesito… que, ¿Hay alguien que…?, ¿Conoces a alguien que…?, No hay nadie que…, No conozco a nadie que…</div>
+  <h3>B. Expresiones indefinidas y negativas</h3>
+  <p>Estas expresiones se usan frecuentemente con el subjuntivo cuando el antecedente es desconocido o inexistente.</p>
+  <div class="egd">
+    <div class="egh">Afirmativas (+)</div><div class="egh">Negativas (−)</div>
+    <div class="egc"><strong>alguien</strong> — someone</div><div class="egc"><strong>nadie</strong> — no one</div>
+    <div class="egc"><strong>algo</strong> — something</div><div class="egc"><strong>nada</strong> — nothing</div>
+    <div class="egc"><strong>algún / alguno(a/os/as)</strong> — some</div><div class="egc"><strong>ningún / ninguno(a)</strong> — none</div>
+    <div class="egc"><strong>también</strong> — also</div><div class="egc"><strong>tampoco</strong> — neither</div>
+    <div class="egc"><strong>siempre</strong> — always</div><div class="egc"><strong>nunca / jamás</strong> — never</div>
+    <div class="egc"><strong>o… o…</strong> — either… or</div><div class="egc"><strong>ni… ni…</strong> — neither… nor</div>
+  </div>
+  <div class="gram">
+    <div class="fm">Doble negación en español:</div>
+    <p><strong>No</strong> hay <strong>nadie</strong> que me comprenda. / <strong>No</strong> conozco a <strong>ninguna</strong> persona que sea perfecta.</p>
+    <p style="margin-top:6px;font-size:.92em;">Recuerda: <em>ningún/ninguno(a)</em> se usa casi siempre en <strong>singular</strong>.</p>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>💬 Parte 2: Vocabulario — Las relaciones personales</h2>
+  <div class="vcg">
+    <div><h4>Los verbos</h4>
+      <table><tr><td>comprometerse (con)</td><td>to get engaged (to)</td></tr><tr><td>casarse (con)</td><td>to get married (to)</td></tr><tr><td>divorciarse (de)</td><td>to get divorced (from)</td></tr><tr><td>enamorarse (de)</td><td>to fall in love (with)</td></tr><tr><td>salir (con)</td><td>to go out (with)</td></tr><tr><td>separarse (de)</td><td>to separate (from)</td></tr><tr><td>romper (con)</td><td>to break up (with)</td></tr><tr><td>llevarse bien/mal (con)</td><td>to get along well/badly</td></tr><tr><td>mantener (una relación)</td><td>to maintain</td></tr><tr><td>odiar</td><td>to hate</td></tr><tr><td>querer</td><td>to love / want</td></tr><tr><td>sentir (e→ie)</td><td>to feel; to be sorry</td></tr><tr><td>compartir</td><td>to share</td></tr></table>
+    </div>
+    <div><h4>Los sustantivos y adjetivos</h4>
+      <table><tr><td>la amistad</td><td>friendship</td></tr><tr><td>el/la amado/a</td><td>loved one</td></tr><tr><td>el alma gemela</td><td>soulmate</td></tr><tr><td>la boda</td><td>wedding</td></tr><tr><td>la cita</td><td>date</td></tr><tr><td>el divorcio</td><td>divorce</td></tr><tr><td>la pareja</td><td>partner / couple</td></tr><tr><td>el/la novio/a</td><td>boyfriend/girlfriend</td></tr><tr><td>el/la esposo/a</td><td>husband/wife</td></tr><tr><td>el/la soltero/a</td><td>single person</td></tr><tr><td>cariñoso/a</td><td>affectionate</td></tr><tr><td>celoso/a</td><td>jealous</td></tr><tr><td>maduro/a</td><td>mature</td></tr><tr><td>sensible</td><td>sensitive</td></tr><tr><td>insoportable</td><td>unbearable</td></tr></table>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>🔄 Parte 3: Expresiones indefinidas y negativas — Repaso interactivo</h2>
+  <h3>A. Tarjetas de estudio — Flashcards</h3>
+  <p>Haz clic en cada tarjeta para ver su pareja opuesta.</p>
+  <div class="fcg" id="fc-area"></div>
+  <div style="margin:10px 0 24px;"><button class="btn bs" onclick="resetFC()">🔄 Voltear todas</button></div>
+
+  <h3>B. Empareja — Drag &amp; Drop</h3>
+  <p>Arrastra cada expresión <strong>negativa</strong> al lado de su pareja <strong>afirmativa</strong>.</p>
+  <div id="mb" style="margin:16px 0;"></div>
+  <p style="font-weight:700;color:#880E4F;margin:14px 0 8px;">⬇️ Arrastra las expresiones negativas:</p>
+  <div class="db" id="dbank"></div>
+  <div style="margin:14px 0 4px;"><button class="btn bp" onclick="chkM()">✅ Verificar</button> <button class="btn bs" onclick="rstM()">🔄 Reiniciar</button></div>
+  <div id="msc" class="sc"></div>
+
+  <h3 style="margin-top:28px;">C. Escribe la expresión opuesta</h3>
+  <p>Lee la expresión dada y escribe su pareja afirmativa o negativa.</p>
+  <div id="foe">
+    <div class="ei" data-a="nadie"><label><strong>1.</strong> alguien → ___</label><input type="text" placeholder="negativa"><div class="fb"></div></div>
+    <div class="ei" data-a="algo"><label><strong>2.</strong> nada → ___</label><input type="text" placeholder="afirmativa"><div class="fb"></div></div>
+    <div class="ei" data-a="nunca"><label><strong>3.</strong> siempre → ___</label><input type="text" placeholder="negativa"><div class="fb"></div></div>
+    <div class="ei" data-a="también"><label><strong>4.</strong> tampoco → ___</label><input type="text" placeholder="afirmativa"><div class="fb"></div></div>
+    <div class="ei" data-a="ningún"><label><strong>5.</strong> algún → ___</label><input type="text" placeholder="negativa"><div class="fb"></div></div>
+    <div class="ei" data-a="o... o..."><label><strong>6.</strong> ni... ni... → ___</label><input type="text" placeholder="afirmativa"><div class="fb"></div></div>
+    <div class="ei" data-a="alguno"><label><strong>7.</strong> ninguno → ___</label><input type="text" placeholder="afirmativa"><div class="fb"></div></div>
+    <div class="ei" data-a="jamás"><label><strong>8.</strong> siempre → ___ (sinónimo de "nunca")</label><input type="text" placeholder="negativa"><div class="fb"></div></div>
+  </div>
+  <div style="margin-top:14px;"><button class="btn bp" onclick="chkO()">✅ Verificar</button> <button class="btn bs" onclick="rstO()">🔄 Reiniciar</button></div>
+  <div id="osc" class="sc"></div>
+
+  <h3 style="margin-top:28px;">D. Completa con la expresión correcta</h3>
+  <p>Selecciona la expresión apropiada para cada oración.</p>
+  <div id="cex">
+    <div class="ei"><label><strong>1.</strong> ¿Hay ___ en tu vida que te comprenda completamente?</label><select onchange="chkS(this,'alguien')"><option value="">—</option><option value="alguien">alguien</option><option value="nadie">nadie</option><option value="algo">algo</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Pregunta afirmativa → <strong>alguien</strong></div></div>
+    <div class="ei"><label><strong>2.</strong> No conozco a ___ que sea perfecto/a en una relación.</label><select onchange="chkS(this,'nadie')"><option value="">—</option><option value="alguien">alguien</option><option value="nadie">nadie</option><option value="nada">nada</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"No conozco a..." → <strong>nadie</strong></div></div>
+    <div class="ei"><label><strong>3.</strong> Ella ___ quiere casarse. A él ___ le interesa el matrimonio.</label><select onchange="chkS(this,'nunca-tampoco')"><option value="">—</option><option value="siempre-también">siempre / también</option><option value="nunca-tampoco">nunca / tampoco</option><option value="nunca-también">nunca / también</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Ambos negativos → <strong>nunca + tampoco</strong></div></div>
+    <div class="ei"><label><strong>4.</strong> No tenemos ___ plan para la boda. No hemos decidido ___.</label><select onchange="chkS(this,'ningún-nada')"><option value="">—</option><option value="algún-algo">algún / algo</option><option value="ningún-nada">ningún / nada</option><option value="ningún-algo">ningún / algo</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Contexto negativo → <strong>ningún + nada</strong></div></div>
+    <div class="ei"><label><strong>5.</strong> ___ quiere enamorarse ___ quiere estar solo. ¡Está confundido!</label><select onchange="chkS(this,'ni-ni')"><option value="">—</option><option value="o-o">O... o...</option><option value="ni-ni">Ni... ni...</option><option value="también-tampoco">También... tampoco</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Negación de ambas → <strong>Ni... ni...</strong></div></div>
+    <div class="ei"><label><strong>6.</strong> Mi amiga ___ sale con chicos cariñosos. Yo ___ prefiero a alguien sensible.</label><select onchange="chkS(this,'siempre-también')"><option value="">—</option><option value="siempre-también">siempre / también</option><option value="nunca-tampoco">nunca / tampoco</option><option value="siempre-tampoco">siempre / tampoco</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Ambos afirmativos → <strong>siempre + también</strong></div></div>
+  </div>
+  <div style="margin-top:14px;"><button class="btn bp" onclick="chkC()">✅ Verificar</button> <button class="btn bs" onclick="rstC()">🔄 Reiniciar</button></div>
+  <div id="csc" class="sc"></div>
+</div>
+
+<div class="sec">
+  <h2>💘 Parte 4: ¡Citas Rápidas!</h2>
+  <div class="ins">
+    <h3>📋 Instrucciones</h3>
+    <ol>
+      <li>Completa tus respuestas en la <strong>Parte 5</strong> antes de la actividad.</li>
+      <li><strong>3 minutos</strong> con cada "cita." Cuando suene la alarma, cambias de pareja.</li>
+      <li>Usa el <strong>subjuntivo</strong> con antecedentes desconocidos.</li>
+      <li>Usa al menos <strong>2 expresiones indefinidas o negativas</strong> por ronda.</li>
+      <li>Usa el <strong>vocabulario de las relaciones personales</strong>.</li>
+      <li>Al final, escribe un resumen de tu "cita" favorita.</li>
+    </ol>
+  </div>
+  <div class="sda">
+    <div class="sdr">⏱️ Ronda 1 — Buscando pareja ideal</div>
+    <p style="margin-bottom:12px;font-style:italic;color:#5D4E4E;">Usa: <strong>Busco / Quiero / Necesito… + que + subjuntivo</strong></p>
+    <div class="qc"><div class="qn">1</div><p>¿Buscas a alguien que ___ (ser) cariñoso/a o prefieres a alguien que ___ (dar) más espacio?</p><p class="ht">Modelo: "Busco a alguien que sea cariñoso. No quiero a nadie que sea celoso."</p></div>
+    <div class="qc"><div class="qn">2</div><p>¿Conoces a alguien que ___ (llevarse) bien con toda tu familia?</p><p class="ht">Usa: alguien / nadie / también / tampoco</p></div>
+    <div class="qc"><div class="qn">3</div><p>¿Hay algo que nunca ___ (poder) perdonar en una relación?</p><p class="ht">Usa: algo / nada / siempre / nunca</p></div>
+  </div>
+  <div class="sda">
+    <div class="sdr">⏱️ Ronda 2 — Las citas y la vida social</div>
+    <p style="margin-bottom:12px;font-style:italic;color:#5D4E4E;">Usa: <strong>expresiones negativas e indefinidas + subjuntivo</strong></p>
+    <div class="qc"><div class="qn">4</div><p>¿Hay algún lugar que ___ (ser) perfecto para una primera cita?</p><p class="ht">Usa: algún / ningún</p></div>
+    <div class="qc"><div class="qn">5</div><p>¿Prefieres salir con alguien que ___ (compartir) tus pasatiempos o que ___ (tener) intereses diferentes?</p><p class="ht">Modelo: "Quiero a alguien que comparta mis intereses."</p></div>
+    <div class="qc"><div class="qn">6</div><p>¿Hay algo que siempre ___ (hacer) en la primera cita? ¿Y algo que nunca ___?</p><p class="ht">Usa: algo / nada / siempre / nunca</p></div>
+  </div>
+  <div class="sda">
+    <div class="sdr">⏱️ Ronda 3 — La amistad y las relaciones</div>
+    <p style="margin-bottom:12px;font-style:italic;color:#5D4E4E;">Usa: <strong>No conozco a nadie que… / Necesito a alguien que…</strong></p>
+    <div class="qc"><div class="qn">7</div><p>¿Necesitas a alguien que ___ (mantener) una amistad por mucho tiempo?</p><p class="ht">Usa: alguien / nadie / ni… ni… / o… o…</p></div>
+    <div class="qc"><div class="qn">8</div><p>¿Conoces a alguna pareja que ___ (llevarse) perfectamente bien siempre?</p><p class="ht">Usa: alguna / ninguna / siempre / nunca</p></div>
+    <div class="qc"><div class="qn">9</div><p>¿Quieres encontrar a alguien que ___ (querer) casarse algún día, o solo salir sin compromiso?</p><p class="ht">Usa: o… o… / ni… ni… / algún día / jamás</p></div>
+  </div>
+</div>
+
+<div class="sec">
+  <h2>✍️ Parte 5: Preparación</h2>
+  <p>Escribe tus respuestas. Usa el <strong>subjuntivo</strong> y las <strong>expresiones indefinidas/negativas</strong>.</p>
+  <div class="ei"><label><strong>1.</strong> Describe tu pareja ideal. Usa "Busco a alguien que…" con al menos 3 verbos en subjuntivo.</label><textarea placeholder="Busco a alguien que sea sensible, que comparta mis valores..."></textarea></div>
+  <div class="ei"><label><strong>2.</strong> ¿Qué cualidades NO quieres? Usa "No quiero a nadie que…" y "Ni… ni…"</label><textarea placeholder="No quiero a nadie que sea insoportable. Ni quiero..."></textarea></div>
+  <div class="ei"><label><strong>3.</strong> ¿Qué buscas en una amistad? Usa "Necesito un/a amigo/a que…"</label><textarea placeholder="Necesito un amigo que siempre me apoye. También quiero..."></textarea></div>
+</div>
+
+<div class="sec">
+  <h2>📝 Parte 6: ¿Indicativo o subjuntivo?</h2>
+  <div id="gex">
+    <div class="ei"><label><strong>1.</strong> Busco una pareja que ___ comprensiva. (ser)</label><select onchange="chkS(this,'sea')"><option value="">—</option><option value="es">es (indicativo)</option><option value="sea">sea (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"Busco" → hipotética → <strong>sea</strong></div></div>
+    <div class="ei"><label><strong>2.</strong> Tengo un novio que ___ muy bien con mi familia. (llevarse)</label><select onchange="chkS(this,'se lleva')"><option value="">—</option><option value="se lleva">se lleva (indicativo)</option><option value="se lleve">se lleve (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"Tengo un novio" → real → <strong>se lleva</strong></div></div>
+    <div class="ei"><label><strong>3.</strong> ¿Conoces a alguien que ___ comprometerse? (querer)</label><select onchange="chkS(this,'quiera')"><option value="">—</option><option value="quiere">quiere (indicativo)</option><option value="quiera">quiera (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Alguien desconocido → <strong>quiera</strong></div></div>
+    <div class="ei"><label><strong>4.</strong> No hay ___ que pueda mantener una relación perfecta.</label><select onchange="chkS(this,'nadie')"><option value="">—</option><option value="alguien">alguien</option><option value="nadie">nadie</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"No hay…" → <strong>nadie</strong></div></div>
+    <div class="ei"><label><strong>5.</strong> Necesito una persona que ___ mis valores. (compartir)</label><select onchange="chkS(this,'comparta')"><option value="">—</option><option value="comparte">comparte (indicativo)</option><option value="comparta">comparta (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"Necesito" → hipotética → <strong>comparta</strong></div></div>
+    <div class="ei"><label><strong>6.</strong> Ella no tiene ___ amigo que la comprenda.</label><select onchange="chkS(this,'ningún')"><option value="">—</option><option value="algún">algún</option><option value="ningún">ningún</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"No tiene…" → <strong>ningún</strong></div></div>
+    <div class="ei"><label><strong>7.</strong> Conozco a una pareja que se ___ profundamente. (amar)</label><select onchange="chkS(this,'ama')"><option value="">—</option><option value="ama">ama (indicativo)</option><option value="ame">ame (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"Conozco" → real → <strong>ama</strong></div></div>
+    <div class="ei"><label><strong>8.</strong> Él no quiere casarse y ella ___ quiere.</label><select onchange="chkS(this,'tampoco')"><option value="">—</option><option value="también">también</option><option value="tampoco">tampoco</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">Negativo → <strong>tampoco</strong></div></div>
+    <div class="ei"><label><strong>9.</strong> No quiero salir con nadie que ___ a los animales. (odiar)</label><select onchange="chkS(this,'odie')"><option value="">—</option><option value="odia">odia (indicativo)</option><option value="odie">odie (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"nadie que…" → inexistente → <strong>odie</strong></div></div>
+    <div class="ei"><label><strong>10.</strong> Todos merecen a alguien que los ___ especiales. (sentir)</label><select onchange="chkS(this,'sienta')"><option value="">—</option><option value="siente">siente (indicativo)</option><option value="sienta">sienta (subjuntivo)</option></select><div class="fb"></div><span class="tgl" onclick="tgA(this)">▶ Explicación</span><div class="ans">"alguien que…" → hipotética → <strong>sienta</strong></div></div>
+  </div>
+  <div style="margin-top:18px;"><button class="btn bp" onclick="chkG()">✅ Verificar</button> <button class="btn bs" onclick="rstG()">🔄 Reiniciar</button></div>
+  <div id="gsc" class="sc"></div>
+</div>
+
+<div class="sec">
+  <h2>📝 Parte 7: Reflexión</h2>
+  <div class="ei"><label><strong>1.</strong> ¿Encontraste a alguien compatible? Escribe un párrafo con <strong>4+ verbos en subjuntivo</strong> y <strong>3+ expresiones indefinidas/negativas</strong>.</label><textarea style="min-height:110px;" placeholder="En mis citas rápidas, no encontré a nadie que fuera mi alma gemela, pero conocí a alguien que..."></textarea></div>
+  <div class="ei"><label><strong>2.</strong> ¿Cuál fue tu "cita" favorita y por qué? (4+ oraciones)</label><textarea style="min-height:100px;" placeholder="Mi cita favorita fue con... porque..."></textarea></div>
+  <div class="tip"><strong>🎯 Checklist:</strong> ☐ 4+ verbos en subjuntivo ☐ 3+ expresiones indefinidas/negativas ☐ Vocabulario de relaciones ☐ Oraciones completas</div>
+</div>
+
+<div style="text-align:center;padding:18px;color:#5D4E4E;font-size:.85em;">SPAN 2102 · Las relaciones personales · El subjuntivo con antecedentes no existentes o desconocidos<br>© 2026 · World Languages, Literatures &amp; Cultures · LSU</div>
+
+<script>
+var P=[{a:'alguien',n:'nadie',ae:'someone',ne:'no one'},{a:'algo',n:'nada',ae:'something',ne:'nothing'},{a:'algún / alguno(a)',n:'ningún / ninguno(a)',ae:'some / any',ne:'none / not any'},{a:'también',n:'tampoco',ae:'also / too',ne:'neither / not either'},{a:'siempre',n:'nunca / jamás',ae:'always',ne:'never'},{a:'o… o…',n:'ni… ni…',ae:'either… or',ne:'neither… nor'}];
+
+function buildFC(){var a=document.getElementById('fc-area');a.innerHTML='';for(var i=0;i<P.length;i++){var c=document.createElement('div');c.className='fcc';c.setAttribute('data-f','0');c.innerHTML='<div class="fci"><div class="fcf"><div class="fct" style="color:#2E7D32">Afirmativa (+)</div><div class="fcw">'+P[i].a+'</div><div class="fce">'+P[i].ae+'</div></div><div class="fcb"><div class="fct" style="color:#C62828">Negativa (−)</div><div class="fcw">'+P[i].n+'</div><div class="fce">'+P[i].ne+'</div></div></div>';(function(x){x.onclick=function(){var f=x.getAttribute('data-f')==='1';x.setAttribute('data-f',f?'0':'1');x.querySelector('.fci').style.transform=f?'rotateY(0)':'rotateY(180deg)';};})(c);a.appendChild(c);}}
+function resetFC(){var c=document.querySelectorAll('.fcc');for(var i=0;i<c.length;i++){c[i].setAttribute('data-f','0');c[i].querySelector('.fci').style.transform='rotateY(0)';}}
+
+var DE=null;
+function buildM(){var b=document.getElementById('mb'),k=document.getElementById('dbank');b.innerHTML='';k.innerHTML='';for(var i=0;i<P.length;i++){var r=document.createElement('div');r.className='mr';r.innerHTML='<div class="ma">'+P[i].a+'</div><div class="mw">↔</div><div class="dz" data-p="'+i+'">Arrastra aquí</div>';b.appendChild(r);}var s=[];for(var i=0;i<P.length;i++)s.push({n:P[i].n,i:i});for(var i=s.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=s[i];s[i]=s[j];s[j]=t;}for(var i=0;i<s.length;i++){var d=document.createElement('div');d.className='dt';d.draggable=true;d.setAttribute('data-p',s[i].i);d.textContent=s[i].n;(function(x){x.ondragstart=function(){DE=x;setTimeout(function(){x.style.opacity='.4';},0);};x.ondragend=function(){x.style.opacity='1';DE=null;};x.ontouchstart=function(){DE=x;x.style.opacity='.6';};})(d);k.appendChild(d);}var z=document.querySelectorAll('.dz');for(var i=0;i<z.length;i++){(function(d){d.ondragover=function(e){e.preventDefault();d.style.borderColor='#C2185B';d.style.background='#FFF0F5';};d.ondragleave=function(){d.style.borderColor='#F8BBD0';d.style.background='#fff';};d.ondrop=function(e){e.preventDefault();if(!DE)return;var x=d.querySelector('.dt');if(x)document.getElementById('dbank').appendChild(x);d.appendChild(DE);d.style.borderColor='#C2185B';d.style.background='#FFF0F5';DE.style.opacity='1';DE=null;};d.ontouchend=function(){if(!DE)return;var x=d.querySelector('.dt');if(x)document.getElementById('dbank').appendChild(x);d.appendChild(DE);d.style.borderColor='#C2185B';d.style.background='#FFF0F5';DE.style.opacity='1';DE=null;};})(z[i]);}}
+function chkM(){var c=0,z=document.querySelectorAll('.dz');for(var i=0;i<z.length;i++){var t=z[i].querySelector('.dt');if(t&&t.getAttribute('data-p')===z[i].getAttribute('data-p')){c++;z[i].style.borderColor='#2E7D32';z[i].style.background='#E8F5E9';t.style.background='#2E7D32';}else{z[i].style.borderColor='#C62828';z[i].style.background='#FFEBEE';if(t)t.style.background='#C62828';}}ssc('msc',c,P.length);}
+function rstM(){document.getElementById('msc').className='sc';buildM();}
+
+function nm(s){return s.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ');}
+var AM={'nadie':['nadie'],'algo':['algo'],'nunca':['nunca','jamas'],'también':['tambien','también'],'ningún':['ningun','ningún','ninguno'],'o... o...':['o...o...','o... o...','o o','o…o','o… o…'],'alguno':['alguno','algún','algun'],'jamás':['jamas','jamás','nunca']};
+function chkOp(inp){var it=inp.closest('.ei'),a=it.getAttribute('data-a'),fb=it.querySelector('.fb'),v=inp.value.trim();if(!v){fb.className='fb';fb.textContent='';inp.className='';return;}var ac=AM[a]||[nm(a)],m=false;for(var i=0;i<ac.length;i++)if(nm(ac[i])===nm(v)){m=true;break;}if(m){fb.className='fb ok';fb.textContent='✅ ¡Correcto! → '+a;inp.className='ok';}else{fb.className='fb no';fb.textContent='❌ Inténtalo de nuevo.';inp.className='no';}}
+(function(){var inp=document.querySelectorAll('#foe .ei input');for(var i=0;i<inp.length;i++)inp[i].oninput=function(){chkOp(this);};})();
+function chkO(){var it=document.querySelectorAll('#foe .ei'),c=0,t=it.length;for(var i=0;i<it.length;i++){var inp=it[i].querySelector('input');if(inp&&inp.classList.contains('ok'))c++;else if(inp&&!inp.value.trim()){it[i].querySelector('.fb').className='fb no';it[i].querySelector('.fb').textContent='⚠️ Escribe una respuesta.';}}ssc('osc',c,t);}
+function rstO(){var it=document.querySelectorAll('#foe .ei');for(var i=0;i<it.length;i++){var inp=it[i].querySelector('input');if(inp){inp.value='';inp.className='';}var fb=it[i].querySelector('.fb');fb.className='fb';fb.textContent='';}document.getElementById('osc').className='sc';}
+
+function chkS(s,a){var it=s.closest('.ei'),fb=it.querySelector('.fb');if(!s.value){fb.className='fb';fb.textContent='';s.style.borderColor='#F8BBD0';s.style.background='#fff';return;}if(s.value===a){fb.className='fb ok';fb.textContent='✅ ¡Correcto!';s.style.borderColor='#2E7D32';s.style.background='#E8F5E9';}else{fb.className='fb no';fb.textContent='❌ Incorrecto.';s.style.borderColor='#C62828';s.style.background='#FFEBEE';}}
+function tgA(el){var a=el.nextElementSibling;if(a.classList.contains('vis')){a.classList.remove('vis');el.textContent='▶ Explicación';}else{a.classList.add('vis');el.textContent='▼ Ocultar';}}
+function ccS(id){var it=document.querySelectorAll('#'+id+' .ei'),c=0,t=it.length;for(var i=0;i<it.length;i++){var fb=it[i].querySelector('.fb');if(fb&&fb.classList.contains('ok'))c++;else{var s=it[i].querySelector('select');if(s&&!s.value){fb.className='fb no';fb.textContent='⚠️ Selecciona.';}}}return{c:c,t:t};}
+function chkC(){var r=ccS('cex');ssc('csc',r.c,r.t);}
+function rstSec(cid,sid){var it=document.querySelectorAll('#'+cid+' .ei');for(var i=0;i<it.length;i++){var s=it[i].querySelector('select');if(s){s.value='';s.style.borderColor='#F8BBD0';s.style.background='#fff';}var fb=it[i].querySelector('.fb');fb.className='fb';fb.textContent='';var a=it[i].querySelector('.ans');if(a)a.classList.remove('vis');var tg=it[i].querySelector('.tgl');if(tg)tg.textContent='▶ Explicación';}document.getElementById(sid).className='sc';}
+function rstC(){rstSec('cex','csc');}
+function chkG(){var r=ccS('gex');ssc('gsc',r.c,r.t);}
+function rstG(){rstSec('gex','gsc');}
+function ssc(id,c,t){var el=document.getElementById(id);el.className='sc vis';if(c===t){el.textContent='🎉 ¡Perfecto! '+c+'/'+t;el.style.background='linear-gradient(135deg,#2E7D32,#43A047)';}else if(c>=t*.7){el.textContent='👍 '+c+'/'+t+' correctas.';el.style.background='linear-gradient(135deg,#880E4F,#C2185B)';}else{el.textContent='📚 '+c+'/'+t+'. Repasa e inténtalo.';el.style.background='linear-gradient(135deg,#C62828,#E53935)';}}
+buildFC();buildM();
+</script>
+</body>
+</html>
